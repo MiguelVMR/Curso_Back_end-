@@ -10,7 +10,8 @@ import com.teste.primeiro_exemplo.model.Produto;
 
 @Repository
 public class ProdutoRpositorio {
-     private List <Produto> produtos = new ArrayList<Produto>();
+    // Simulando um banco de dados 
+    private List <Produto> produtos = new ArrayList<Produto>();
      private Integer ultimoId  = 0;
 
     /**

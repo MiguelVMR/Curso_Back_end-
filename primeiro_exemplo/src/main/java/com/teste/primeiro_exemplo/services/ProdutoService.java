@@ -51,7 +51,8 @@ public class ProdutoService {
      /**
      * Metodo para atualziar o produto na lista 
      * @param produto que sera atualizado
-     * @return Reporna o produto apos atualziar a lista 
+     * @param id do produto
+     * @return Retorna o produto apos atualziar a lista 
      */
     public Produto atualizar(Integer id, Produto produto){
         // Ter alguma validação

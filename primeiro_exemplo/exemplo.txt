@@ -11,7 +11,7 @@ Repositorio de produto: OK
  Serviço de produto: OK
     obeterTodos, obterPorId, adcionar, atualizar, deletar
 
-Controller de produto:
+Controller de produto: OK
     obeterTodos, obterPorId, adcionar, atualizar, deletar
 
 
