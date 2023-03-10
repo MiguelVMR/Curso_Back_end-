@@ -7,3 +7,8 @@ Modelo: OK
 
 Repositorio de produto: OK
     obeterTodos, obterPorId, adcionar, atualizar, deletar 
+ 
+ Serviço de produto: 
+    obeterTodos, obterPorId, adcionar, atualizar, deletar 
+
+    
