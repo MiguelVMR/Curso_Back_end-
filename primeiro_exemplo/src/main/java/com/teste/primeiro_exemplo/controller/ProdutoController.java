@@ -25,6 +25,10 @@ public class ProdutoController {
     public List <Produto> ObterTodos(){
        return produtoService.obterTodos();
     }
+    @GetMapping("/{id}")
+    public Optional <Produto> obterPorId(@PathVariable Integer id){
+        return produtoService.obterPorId(id);
+    }
     
 
     @ PostMapping
