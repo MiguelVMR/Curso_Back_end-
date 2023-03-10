@@ -28,8 +28,39 @@ public class ProdutoService {
       * @return Retorna um produto que seja  encontrado.
       */
       public Optional <Produto> obterPorId(Integer id){
-        return produtoRepositorio.obterPorId(id);
-      
+
+        return produtoRepositorio.obterPorId(id);  
     } 
+    /**
+     * Método para adcionar produto na lista 
+     * @param produto que será adcionado
+     * @return produto que será adcionado na lista
+     */
+    public Produto adicionar (Produto produto){
+        // Poderia ter alguma regra de negocio para validar o produto.
+        return produtoRepositorio.adicionar(produto);
+    }
+     /**
+     * Metodo para deletar o produto por Id
+     * @param id do produto a ser deletado
+     */
+    public void deletar (Integer id){
+        // Aqui poderia ter alguma validação
+        produtoRepositorio.deletar(id);
+    }
+     /**
+     * Metodo para atualziar o produto na lista 
+     * @param produto que sera atualizado
+     * @return Reporna o produto apos atualziar a lista 
+     */
+    public Produto atualizar(Integer id, Produto produto){
+        // Ter alguma validação
+        produto.setId(id);
+
+        return produtoRepositorio.atualizar(produto); 
+    
+    }
+
+
 
 }
