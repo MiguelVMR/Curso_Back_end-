@@ -28,7 +28,7 @@ public class ProdutoController {
     @GetMapping("/{id}")
     public Optional <Produto> obterPorId(@PathVariable Integer id){
         return produtoService.obterPorId(id);
-    }
+    } 
     
 
     @ PostMapping
