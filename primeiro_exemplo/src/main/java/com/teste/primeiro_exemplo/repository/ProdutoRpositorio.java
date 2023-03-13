@@ -26,7 +26,7 @@ public class ProdutoRpositorio {
      /**
       * Método que retorna o produto encontrado pelo seu Id.
       * @param id do produto que sera localizado.
-      * @return Retorna um produto que seja  encontrado.
+      * @return Retorna um produto que seja  encontrado pelo seu Id
       */
     public Optional <Produto> obterPorId(Integer id){
         return produtos
